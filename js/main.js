@@ -93,7 +93,7 @@ function renderMovies(array, place){
 
 
 // event submit
-elForm.addEventListener("submit", function(evt){
+elForm.addEventListener("input", function(evt){
     evt.preventDefault();
 
     let searchInput = elInputValue.value.trim();
